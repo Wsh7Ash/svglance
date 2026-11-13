@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="150" viewBox="0 0 960 150" role="img" aria-label="Deploy 2026-11-15">
+<style>text{font-family:-apple-system,Segoe UI,Roboto,sans-serif}.t{font-size:16px;font-weight:600;fill:#1f2933}.l{font-size:12px;fill:#3e4c59}.a{font-size:10px;fill:#7b8794}.b{font-size:10px;fill:#fff}</style>
+<rect width="960" height="150" fill="#ffffff"/>
+<text class="t" x="16" y="28">Deploy 2026-11-15</text>
+<line x1="150.0" y1="44" x2="150.0" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="150.0" y="144" text-anchor="middle">09:00</text>
+<line x1="307.2" y1="44" x2="307.2" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="307.2" y="144" text-anchor="middle">09:36</text>
+<line x1="464.4" y1="44" x2="464.4" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="464.4" y="144" text-anchor="middle">10:12</text>
+<line x1="621.6" y1="44" x2="621.6" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="621.6" y="144" text-anchor="middle">10:48</text>
+<line x1="778.8" y1="44" x2="778.8" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="778.8" y="144" text-anchor="middle">11:24</text>
+<line x1="936.0" y1="44" x2="936.0" y2="132" stroke="#e4e7eb" stroke-width="1"/>
+<text class="a" x="936.0" y="144" text-anchor="middle">12:00</text>
+<text class="l" x="16" y="76">API</text>
+<line x1="150" y1="87" x2="936" y2="87" stroke="#f0f2f4" stroke-width="1"/>
+<text class="l" x="16" y="112">Web</text>
+<line x1="150" y1="123" x2="936" y2="123" stroke="#f0f2f4" stroke-width="1"/>
+<g><title>build (09:00–09:45, ok)</title><rect x="150.0" y="63" width="196.5" height="18" rx="3" fill="#2e7d32"/>
+<text class="b" x="154.0" y="76">build</text>
+</g>
+<g><title>migrate (09:45–10:10, warn)</title><rect x="346.5" y="63" width="109.17" height="18" rx="3" fill="#ed6c02"/>
+<text class="b" x="350.5" y="76">migrate</text>
+</g>
+<g><title>deploy (10:10–10:40, fail)</title><rect x="455.67" y="63" width="131.0" height="18" rx="3" fill="#c62828"/>
+<text class="b" x="459.67" y="76">deploy</text>
+</g>
+<g><title>bundle (09:20–10:00, ok)</title><rect x="237.33" y="99" width="174.67" height="18" rx="3" fill="#2e7d32"/>
+<text class="b" x="241.33" y="112">bundle</text>
+</g>
+<g><title>smoke (10:45–11:15, info)</title><rect x="608.5" y="99" width="131.0" height="18" rx="3" fill="#1565c0"/>
+<text class="b" x="612.5" y="112">smoke</text>
+</g>
+</svg>

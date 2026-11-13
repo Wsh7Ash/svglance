@@ -1,0 +1,22 @@
+{
+  "title": "Deploy 2026-11-15",
+  "start": "2026-11-15T09:00:00Z",
+  "end": "2026-11-15T12:00:00Z",
+  "lanes": [
+    {
+      "name": "API",
+      "events": [
+        { "label": "build", "start": "2026-11-15T09:00:00Z", "end": "2026-11-15T09:45:00Z", "status": "ok" },
+        { "label": "migrate", "start": "2026-11-15T09:45:00Z", "end": "2026-11-15T10:10:00Z", "status": "warn" },
+        { "label": "deploy", "start": "2026-11-15T10:10:00Z", "end": "2026-11-15T10:40:00Z", "status": "fail" }
+      ]
+    },
+    {
+      "name": "Web",
+      "events": [
+        { "label": "bundle", "start": "2026-11-15T09:20:00Z", "end": "2026-11-15T10:00:00Z", "status": "ok" },
+        { "label": "smoke", "start": "2026-11-15T10:45:00Z", "end": "2026-11-15T11:15:00Z", "status": "info" }
+      ]
+    }
+  ]
+}

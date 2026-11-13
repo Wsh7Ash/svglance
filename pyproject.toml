@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "svglance"
+version = "1.0.0"
+description = "Render a self-contained SVG timeline from a JSON event plan"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["svg", "timeline", "visualization", "gantt"]
+dependencies = []
+
+[project.scripts]
+svglance = "svglance.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
